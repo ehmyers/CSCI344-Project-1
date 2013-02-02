@@ -13,11 +13,15 @@
    Shared Styles
 ----------------------------------------- */
 body {
-	background: #e2eeff;
+	background: #e3e3e3;
 }
 
 .abilities {
 	padding: 30px;
+}
+
+.overlay {
+	position: absolute;
 }
 
 /* -----------------------------------------
