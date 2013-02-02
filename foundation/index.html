@@ -14,98 +14,89 @@
   <!-- Included CSS Files (Uncompressed) -->
   <!--
   <link rel="stylesheet" href="stylesheets/foundation.css">
-  -->
-  
-  <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+-->
 
-  <script src="javascripts/modernizr.foundation.js"></script>
+<!-- Included CSS Files (Compressed) -->
+<link rel="stylesheet" href="stylesheets/foundation.min.css">
+<link rel="stylesheet" href="stylesheets/app.css">
+
+<script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
 
   <div class="row">
     <div class="twelve columns text-center">
-      <h1>Welcome to ScryTime</h1>
+      <h1>Welcome to Scry<img src="images/logo.png" alt="scrytime eyeball logo" width="50px" />Time</h1>
       <p>an interactive, image based scrying to find your lacking talent</p>
       <hr />
     </div>
   </div>
 
   <div class="row">
-    <div class="twelve columns">
-      <h3>previous scrying results</h3>
-      <div id="featured">
-        <img src="images/001.jpg" alt="slide image" data-caption="#htmlCaption001" >
-        <img src="images/002.jpg" alt="slide image" data-caption="#htmlCaption002" >
-        <img src="images/003.jpg" alt="slide image" data-caption="#htmlCaption003" >
+    <!-- Grid Example -->
+    <div class="row">
+      <div class="twelve columns text-center">
+        <p><a href="#" data-reveal-id="exampleModal" class="button">click here to begin</a></p>
       </div>
     </div>
-    <span class="orbit-caption" id="htmlCaption001">missing courage</span>
-    <span class="orbit-caption" id="htmlCaption002">missing brains</span>
-    <span class="orbit-caption" id="htmlCaption003">missing heart</span>
-  </div>
 
-  <div class="row">
-      <!-- Grid Example -->
-      <div class="row">
-        <div class="twelve columns text-center">
-          <div class="panel">
-             <p><a href="#" class="button">click to get started</a></p>
-          </div>
+    <div id="exampleModal" class="reveal-modal">
+      <h2>hello.</h2>
+      <p>I see you're ready to begin.  clear your mind, take a breath, and click the next button to start the scrying process.
+      </p>
+      <a class="close-reveal-modal">×</a>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <h3>previous scrying results</h3>
+        <div id="featured">
+          <img src="images/001.jpg" alt="slide image" data-caption="#htmlCaption001" >
+          <img src="images/002.jpg" alt="slide image" data-caption="#htmlCaption002" >
+          <img src="images/003.jpg" alt="slide image" data-caption="#htmlCaption003" >
         </div>
       </div>
+      <span class="orbit-caption" id="htmlCaption001">missing courage</span>
+      <span class="orbit-caption" id="htmlCaption002">missing brains</span>
+      <span class="orbit-caption" id="htmlCaption003">missing heart</span>
+    </div>
 
-      <div class="row">
-        <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
-        </div>
-        <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
+    <div class="row">
+      <div class="four columns">
+        <div class="panel">
+          <p>Four columns</p>
         </div>
       </div>
-
-      <div class="row">
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
+      <div class="four columns">
+        <div class="panel">
+          <p>Four columns</p>
         </div>
       </div>
-  </div>
-  
-  <!-- Included JS Files (Uncompressed) -->
+      <div class="four columns">
+        <div class="panel">
+          <p>Four columns</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Included JS Files (Uncompressed) -->
   <!--
   <script src="javascripts/jquery.js"></script><script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script><script src="javascripts/jquery.foundation.forms.js"></script><script src="javascripts/jquery.foundation.reveal.js"></script><script src="javascripts/jquery.foundation.orbit.js"></script><script src="javascripts/jquery.foundation.navigation.js"></script><script src="javascripts/jquery.foundation.buttons.js"></script><script src="javascripts/jquery.foundation.tabs.js"></script><script src="javascripts/jquery.foundation.tooltips.js"></script><script src="javascripts/jquery.foundation.accordion.js"></script><script src="javascripts/jquery.placeholder.js"></script><script src="javascripts/jquery.foundation.alerts.js"></script><script src="javascripts/jquery.foundation.topbar.js"></script><script src="javascripts/jquery.foundation.joyride.js"></script><script src="javascripts/jquery.foundation.clearing.js"></script><script src="javascripts/jquery.foundation.magellan.js"></script>
-  -->
-  
-  <!-- Included JS Files (Compressed) -->
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/foundation.min.js"></script>
-  
-  <!-- Initialize JS Plugins -->
-  <script src="javascripts/app.js"></script>
+-->
 
-  
-    <script>
-    $(window).load(function(){
-      $("#featured").orbit();
-    });
-    </script> 
-  
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/foundation.min.js"></script>
+
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+
+
+<script>
+$(window).load(function(){
+  $("#featured").orbit();
+});
+</script> 
+
 </body>
 </html>
