@@ -18,6 +18,10 @@
     $.fn.foundationClearing         ? $doc.foundationClearing() : null;
 
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
+
+    $("#reveal-heart").click(function() {
+      $("#heart-modal").reveal();
+    });
   });
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids

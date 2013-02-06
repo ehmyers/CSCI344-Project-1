@@ -17,8 +17,15 @@ body {
 }
 
 .abilities {
-	padding: 30px;
+	width: 100px;
 }
+
+a img {
+	padding: 0px 10px 0px 0px;
+	width: 25px;
+}
+
+
 
 .overlay {
 	position: absolute;
