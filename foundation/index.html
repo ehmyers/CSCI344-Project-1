@@ -16,33 +16,87 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
 
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
 
-  <div class="row">
-    <div class="six columns">
-      <h2>Welcome to Scry<img src="images/logo.svg" alt="scrytime eyeball logo" width="50px" />Time</h2>
-      <p>an interactive, image based scrying to find your lacking talent</p>
+  <header>
+    <div class="row">
+      <div class="eight columns">
+        <h2>Welcome to Scry<img src="images/logo.svg" alt="scrytime eyeball logo" width="40px" />Time</h2>
+        <p>an interactive, image based scrying to find your lacking talent</p>
+      </div>
+
+      <div class="four columns">
+        <ul class="link-list right">
+          <li><a href="#" data-reveal-id="heartModal">heart</a></li>
+          <li><a href="#" data-reveal-id="courageModal">courage</a></li>
+          <li><a href="#" data-reveal-id="brainsModal">brains</a></li>
+        </ul>
+
+      </div>
+    </header>
+
+    <div id="heartModal" class="reveal-modal">
+      <h2>missing heart?</h2>
+      <p>
+        The best and most beautiful things in the world cannot be seen or even
+        touched - they must be felt with the heart. - Helen Keller
+      </p>
+      <p>
+        If you fear you're missing a heart, look to the scrying eye to tell you
+        the secret of how to gain one.
+      </p>
+      <a class="close-reveal-modal">×</a>
     </div>
 
-    <div class="six columns">
-      <ul class="nav-bar right">
-        <li><a href="#"><img src="images/abilities/heart.svg" alt="heart" />heart</a></li>
-        <li><a href="#"><img src="images/abilities/courage.svg" alt="courage" />courage</a></li>
-        <li><a href="#"><img src="images/abilities/brains.svg" alt="brains" />brains</a></li>
-      </ul>
+    <div id="courageModal" class="reveal-modal">
+      <h2>missing courage?</h2>
+      <p>
+        Courage is resistance to fear, mastery of fear, not absence of fear.
+        - Mark Twain
+      </p>
+      <p>
+        If you worry you're lacking courage, ask the scrying eye how to gain some.
+      </p>
+      <a class="close-reveal-modal">×</a>
+    </div>
+
+    <div id="brainsModal" class="reveal-modal">
+      <h2>missing brains?</h2>
+      <p>
+        To repeat what others have said, requires education, to challenge it, requires 
+        brains. - Mary Pettibone Poole
+      </p>
+      <p>
+        Think you're missing brains?  Head over to the scrying eye to help you find some.
+      </p>
+      <a class="close-reveal-modal">×</a>
     </div>
 
   </div>
   <!-- End Header and Nav -->
   
+  <!-- Call to Action Panel -->
+  <div class="row">
+    <div class="twelve columns">
+
+      <div class="row">
+        <div class="three columns">
+          <a href="#" class="radius button right">begin the scry</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
   
   <!-- First Band (Slider) -->
   <div class="row">
     <div class="twelve columns">
-      <h3>previous scrying results</h3>
+      <h4>previous scrying results</h4>
       <div id="featured">
         <img src="images/foundation/orbit_photos/001.jpg" alt="slide image" data-caption="#htmlCaption001" >
         <img src="images/foundation/orbit_photos/002.jpg" alt="slide image" data-caption="#htmlCaption002" >
@@ -77,27 +131,6 @@
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
     </div>
     
-  </div>
-  
-  
-  <!-- Call to Action Panel -->
-  <div class="row">
-    <div class="twelve columns">
-
-      <div class="panel">
-        <h4>Get in touch!</h4>
-
-        <div class="row">
-          <div class="nine columns">
-            <p>We'd love to hear from you, you attractive person you.</p>
-          </div>
-          <div class="three columns">
-            <a href="#" class="radius button right">Contact Us</a>
-          </div>
-        </div>
-      </div>
-      
-    </div>
   </div>
   
   
