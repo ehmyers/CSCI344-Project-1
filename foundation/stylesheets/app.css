@@ -41,6 +41,10 @@ footer {
 	padding-top: 30px;
 }
 
+footer a {
+	color: #3d5e8c;
+}
+
 .header {
 	background: #9298a1;
 	color: #ededed;
@@ -54,6 +58,14 @@ footer {
 h2 {
 	font-family: 'Libre Baskerville', serif;
 	color: #f4f4f4;
+}
+
+h2 a {
+	color: #f4f4f4;
+}
+
+h2 a:hover {
+	color: #3d5e8c;
 }
 
 h3, h4{
