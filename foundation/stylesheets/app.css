@@ -12,11 +12,6 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-body {
-	background: #e3e3e3;
-	font-family: 'Asap', sans-serif;
-}
-
 .abilities {
 	width: 100px;
 }
@@ -24,6 +19,16 @@ body {
 a img {
 	padding: 0px 10px 0px 0px;
 	width: 25px;
+}
+
+body {
+	background: #bbc7d7;
+	font-family: 'Asap', sans-serif;
+}
+
+.button:hover, .button:focus {
+	color: white;
+	background-color: #3d5e8c;
 }
 
 .button-panel {
@@ -34,8 +39,14 @@ footer {
 	padding-top: 30px;
 }
 
-h2, h3, h4{
+h2 {
 	font-family: 'Libre Baskerville', serif;
+	color: #f4f4f4;
+}
+
+h3, h4{
+	font-family: 'Libre Baskerville', serif;
+	color: #3d5e8c;
 }
 
 header {
@@ -47,18 +58,18 @@ header {
 	font-family: 'Libre Baskerville', serif;
 }
 
-.overlay {
+/*.overlay {
 	position: absolute;
 	background: #000000;
 	opacity: .5;
-}
+}*/
 
 .panel {
-	background: #cccccc;
+	background: #9298a1;
 	padding: 45px 0px;
 	margin-bottom: 60px;
 	border: none;
-	box-shadow: 3px 3px 2px #aaaaaa;
+	box-shadow: 2px 2px 1px #888888;
 }
 
 .xlarge {
