@@ -1,3 +1,17 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
 .abilities {
 	padding: 15px 0px 0px 0px;
 }
@@ -63,8 +77,27 @@ h3, h4{
 	font-family: 'Libre Baskerville', serif;
 }
 
+/*.overlay {
+	position: absolute;
+	background: #000000;
+	opacity: .5;
+}*/
+
 .xlarge {
 	font-size: 20px;
 	background: #666666;
 	border-color: #444444;
 }
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
