@@ -14,14 +14,33 @@ body {
 	text-align: center;
 }
 
-.btn, .btn-primary {
-	background-color: #666666;
+.btn {
+	background: #666666;
+	border: 1px solid #222222;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
 }
 
-.button:hover, .button:focus {
+.btn:hover, .btn:focus {
 	color: white;
 	background-color: #3d5e8c;
-	text-decoration: none;
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.btn-xlarge {
+	padding: 11px 19px;
+	font-size: 20px;
+	background: #666666;
+	border-color: #444444;
 }
 
 .button-panel {
@@ -90,12 +109,6 @@ h4 {
 	font-family: 'Libre Baskerville', serif;
 }
 
-.btn-xlarge {
-	padding: 11px 19px;
-	font-size: 20px;
-	background: #666666;
-	border-color: #444444;
-}
 
 /* carousel */
 
