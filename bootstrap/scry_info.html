@@ -8,6 +8,7 @@
   <link href="css/lib/bootstrap.css" rel="stylesheet">
   <link href="css/lib/bootstrap-responsive.css" rel="stylesheet">
 
+
   <link rel="stylesheet" href="css/app/app.css">
   <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
@@ -38,61 +39,37 @@
       <h3>So you're missing something...</h3>
       <p>and you'd like to know what it is.  You're in the right place, then.
       <br />Take a <strong>deep breath</strong> and click the "begin scry" button to find out what it is!
-      </p
-   </div>
-
-    <!-- Call to Action Panel-->
-    <div class="row">
-      <div class="twelve columns button-panel">
-        <a href="scry_info.html" class="btn btn-xlarge btn-primary">find what you've lost</a>
-      </div>
-    </div>
-
-    <div id="inDevelopment" class="reveal-modal">
-      <h3>oops!</h3>
-      <p>
-        We're not quite done with that bit yet. <br /> Check back later to see if we've finished it!
       </p>
-      <a class="close-reveal-modal">×</a>
     </div>
 
-    <footer>
-      <div class="span11">
-        <p class="pull-right">
-          <a href="http://ehmyers.com" target="_blank">main website</a>  ·  
-          <a href="http://nm.unca.edu" target="_blank">new media</a>  ·  
-          <a href="http://unca.edu" target="_blank">unc asheville</a>
-          <p>&copy; copyright ehmyers, 2013</p>
-        </div>
-      </footer>
+   <!-- modal -->
+  <div class="button-panel">
+    <a data-toggle="modal" href="#inDevelopment" class="btn btn-large">begin scry</a>
+  </div>
 
-    </div> <!-- /container -->
+  <div id="#inDevelopment" class="modal hide fade" style="display: none; ">
+    <h3>oops!</h3>
+    <p>We're not quite done with that bit yet. <br /> Check back later to see if we've finished it!</p>
+  </div>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Carousel Template · Bootstrap_files/jquery.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-transition.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-alert.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-modal.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-dropdown.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-scrollspy.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-tab.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-tooltip.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-popover.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-button.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-collapse.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-carousel.js"></script>
-    <script src="./Carousel Template · Bootstrap_files/bootstrap-typeahead.js"></script>
-    <script>
-    !function ($) {
-      $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-    }(window.jQuery)
-    </script>
-    <script src="./Carousel Template · Bootstrap_files/holder.js"></script>
+  <footer>
+    <div class="span11">
+      <p class="pull-right">
+        <a href="http://ehmyers.com" target="_blank">main website</a>  ·  
+        <a href="http://nm.unca.edu" target="_blank">new media</a>  ·  
+        <a href="http://unca.edu" target="_blank">unc asheville</a>
+        <p>&copy; copyright ehmyers, 2013</p>
+      </div>
+    </footer>
 
-  </body>
-  </html>
+  </div> <!-- /container -->
+
+  <!-- javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/lib/bootstrap.js"></script>
+  <script src="js/lib/bootstrap-responsive.js"></script>
+
+</body>
+</html>
