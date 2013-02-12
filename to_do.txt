@@ -1,0 +1,6 @@
+foundation
+ - done!
+
+bootstrap
+ - get modal working
+ - style carousel comments
