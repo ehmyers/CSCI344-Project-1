@@ -1,6 +1,5 @@
 foundation
- - done!
+ - get orbit arrows back
 
 bootstrap
  - get modal working
- - style carousel comments
