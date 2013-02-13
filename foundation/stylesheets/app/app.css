@@ -65,16 +65,21 @@ h3, h4{
 	font-family: 'Libre Baskerville', serif;
 }
 
-span.right {
-	background: url("images/foundation/orbit/right-arrow.png");
-}
-
-span.left { 
-	background: url("images/foundation/orbit/left-arrow.png");
-}
-
 .xlarge {
 	font-size: 20px;
 	background: #666666;
 	border-color: #444444;
+}
+
+/* orbit
+   ================================================== */
+
+div.slider-nav span.right {
+  background: url(../../images/foundation/orbit/right-arrow.png);
+  right: 0;
+}
+
+div.slider-nav span.left {
+  background: url(images/foundation/orbit/left-arrow.png);
+  left: 0;
 }

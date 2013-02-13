@@ -3,3 +3,4 @@ foundation
 
 bootstrap
  - get modal working
+ - start carousel automatically
