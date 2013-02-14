@@ -29,8 +29,7 @@
   <div class="container">
     <!-- Main hero unit for a primary marketing message or call to action -->
     <div class="hero-unit span10 header">
-      <h2>Welcome to <a href="index.html">Scry<img src="img/white_logo.svg" alt="scrytime eyeball logo" width="40px" />
-      Time</a></h2>
+      <h2>Welcome to <a href="index.html">Scry<img src="img/white_logo.svg" alt="scrytime eyeball logo" width="40px" />Time</a></h2>
       <p>an interactive, image based scrying to find your lacking talent</p>
     </div>
 
@@ -40,12 +39,13 @@
       <br />Take a <strong>deep breath</strong> and click the "begin scry" button to find out what it is!
       </p>
       <div class="button-panel">
-        <a data-toggle="modal" data-target="#inDevelopment" class="btn btn-large">begin scry</a>
+        <button class="btn btn-large" type="button" data-toggle="modal" data-target="#inDevelopment">begin scry</button>
       </div>
     </div>
 
    <!-- modal -->
-  <div id="#inDevelopment" class="modal hide fade" style="display: none;">
+  <div id="inDevelopment" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3>oops!</h3>
     <p>We're not quite done with that bit yet. <br /> Check back later to see if we've finished it!</p>
   </div>
