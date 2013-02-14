@@ -1,6 +1,0 @@
-foundation
- - get orbit arrows back
-
-bootstrap
- - get modal working
- - start carousel automatically
