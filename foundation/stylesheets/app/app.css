@@ -74,12 +74,12 @@ h3, h4{
 /* orbit
    ================================================== */
 
-div.slider-nav span.right {
+span.right {
   background: url(../../images/foundation/orbit/right-arrow.png);
   right: 0;
 }
 
-div.slider-nav span.left {
+span.left {
   background: url(../../images/foundation/orbit/left-arrow.png);
   left: 0;
 }
